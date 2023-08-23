@@ -129,3 +129,5 @@ space: O(1)
 
         return right;
     }
+time: O(logN)
+space: O(1)
