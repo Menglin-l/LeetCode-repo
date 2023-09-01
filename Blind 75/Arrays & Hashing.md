@@ -23,8 +23,18 @@
 ---
 #### 271. Encode and Decode Strings
 
+1. 最好的办法是标记每个字符串的个数，然后转换为一个字符，放在该字符串前面。等到解码的时候，将这个字符转换为数字，依次往后取相应个数的substring就行了。
+2. 难点在于不能用char size = (char)(str.length() + '0');的方法，这样会数字转换为相应的ascii码。而直接int size = str.length(); sb.append((char) size).append(str);这样就把数字转换为一个Unicode character，解码的时候直接用int读就可以了。
 
+8.31 - 需要复习
+
+---
 #### 128. Longest Consecutive Sequence
 
+1. 没有思路
+2. 学习了可以先用hashset过一遍整个数组，然后再挨个去找每一组连续sequence的起始数字，然后记录最大长度。
 
+8.31 - 需要复习
+
+---
 #### Expansion and Review
