@@ -1,4 +1,9 @@
+#### 226. Invert Binary Tree
 
+1. 用dfs来做，比较基础的一个题。
+2. 交换节点的操作在前序遍历的位置进行。
+
+9.6 - 三个月后再复习
 
 #### 104. Maximum Depth of Binary Tree
 
